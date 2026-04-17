@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PaginaInicial</class>
+ <widget class="QMainWindow" name="PaginaInicial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1032</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1030</width>
+    <height>555</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1032</width>
+    <height>555</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Apurador Carnavalesco</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imagens/paginaIncial/iconeJanela.png</normaloff>imagens/paginaIncial/iconeJanela.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1032</width>
+     <height>555</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1032</width>
+     <height>555</height>
+    </size>
+   </property>
+   <widget class="QPushButton" name="voltarBotao">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>430</y>
+      <width>411</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 0, 0);
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 63 32pt &quot;Bookman Old Style&quot;;
+border: 4px solid black;
+border-radius: 15px;
+}
+
+QPushButton:hover{
+color: rgb(255, 255, 255);
+background-color:  qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.129353 rgba(255, 65, 0, 255), stop:0.492537 rgba(124, 93, 195, 255), stop:0.890547 rgba(0, 85, 179, 255));
+font: 63 32pt &quot;Bookman Old Style&quot;;
+border: 4px solid black;
+border-radius: 15px;
+}
+
+QPushButton:pressed{
+}</string>
+    </property>
+    <property name="text">
+     <string>Voltar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-50</y>
+      <width>1091</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/Sobre/background.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>-90</y>
+      <width>321</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: rgb(255, 255, 255);
+	font: 70 14pt &quot;BIZ UDMincho&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Esse programa foi feito usando linguagem Python com o auxílio das seguintes bibliotecas: PyQt6, MySQL Connector, Skfuzzy  e Numpy. O intuito deste projeto foi criar um apurador de votos para desfiles de Carnaval baseado na lógica Fuzzy. Tendo isso em vista, os quesitos harmonia, comissão de frente, enredo e evolução foram definidos como as variáveis, cada um com as tags &quot;bom&quot;, &quot;medio&quot; e &quot;ruim&quot;. Assim, foram necessárias 81 regras para o controlador e a função de pertinência triangular foi a escolhida para o projeto. Além do mais, o diferencial do programa é o armazenamento das apurações em um banco de dados MySQL.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>voltarBotao</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
