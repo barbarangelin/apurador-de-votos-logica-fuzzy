@@ -51,7 +51,7 @@ class Ui_PaginaInicial(object):
         self.botaoApurar.setGeometry(QtCore.QRect(600, 280, 321, 81))
         self.botaoApurar.setStyleSheet("QPushButton{\n"
 "color: rgb(231, 121, 41);\n"
-"background-color: rgb(85, 255, 255);\n"
+"background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));\n"
 "font: 22pt \"MV Boli\";\n"
 "border: 4px solid black;\n"
 "border-radius: 15px;\n"
@@ -59,7 +59,7 @@ class Ui_PaginaInicial(object):
 "\n"
 "QPushButton:hover{\n"
 "color: rgb(255, 255, 255);\n"
-"background-color: rgb(170, 0, 127);\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
 "font: 22pt \"MV Boli\";\n"
 "border: 4px solid black;\n"
 "border-radius: 15px;\n"

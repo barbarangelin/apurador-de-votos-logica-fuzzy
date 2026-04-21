@@ -68,7 +68,7 @@ def botaoApurarClicado():
     enredo = ctrl.Antecedent(np.arange(0, 11, 1), 'Enredo')
     evolução = ctrl.Antecedent(np.arange(0, 11, 1), 'Evolução')
     """saída"""
-    global conceito
+    
     conceito = ctrl.Consequent(np.arange(0, 11, 0.5), 'Conceito Final')
 
     """definicao dos conjuntos"""
@@ -216,7 +216,7 @@ def paginaIncialInterface ():
     paginaInicial.show()
     paginaInicial.novaApuracaoBotao.clicked.connect(botaoNovaApuraçãoClicado)
     paginaInicial.historicoBotao.clicked.connect(botaoHistoricoClicado)
-    paginaInicial.Sobre.clicked.connect(paginaSobreInterface)
+    paginaInicial.Sobre.clicked.connect(botaoSobreClicado)
 
 def paginaNovaApuraçãoInterface():
     global paginaNovaApuração
